@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html onmousedown="spaceDown = true" onmouseup="spaceDown = false">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Line</title>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<!-- <audio src="../Running_in_Danger.wav" autoplay /> -->
+
+	<div id="dv">
+		<p><span id="timer">Time: 0 seconds</span> | <span id="levelTimer">Level Time: 0 seconds</span></p>
+		<p id="highScore">High Score: 0 seconds</p>
+		<p>Made by <a href="https://www.spickey.repl.co" target="blank">Spickey</a> </p>
+
+		<div id="canvaDiv">
+			<canvas id="canvas" style="z-index:1;" >
+				Your browser does not support the HTML canvas tag.
+			</canvas>
+			<canvas id="canvas2" style="z-index:2;">
+			</canvas>
+		</div>
+	</div>
+
+	<script src="script.js">
+	</script>
+</body>
+
+</html>

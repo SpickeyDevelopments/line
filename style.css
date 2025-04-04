@@ -1,0 +1,40 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	width: 50%;
+  margin: 0 auto;
+	text-align: center;
+}
+
+a {
+  color: lightblue;
+}
+a:hover {
+  color: lightgreen;
+}
+
+#canvaDiv {
+	position: relative; 
+	left: 0px;
+	/* top: 0px; */
+}
+
+#dv {
+	background-color: black;
+	color: white;
+	left: 0px;
+	top: 0px;
+}
+
+canvas {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
